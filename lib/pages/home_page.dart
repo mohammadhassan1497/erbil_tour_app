@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context);
+    print('object');
     return SafeArea(
       child: Scaffold(
         body: FutureBuilder(
